@@ -28,6 +28,7 @@ lazy val root = (project in file("."))
       "-Ypartial-unification"
     ),
     libraryDependencies ++= Seq(
+      "com.lihaoyi" %% "sourcecode" % "0.1.4",
       "org.typelevel"   %% "cats-effect"         % CatsEffectVersion,
       "co.fs2"          %% "fs2-core"            % Fs2Version,
 
